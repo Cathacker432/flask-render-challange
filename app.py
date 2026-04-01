@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from repo_dev.model import CarVsTruck # import class created in model.py
+from model import CarVsTruck # import class created in model.py
 import os
 import logging
 
