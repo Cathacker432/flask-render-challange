@@ -5,7 +5,6 @@ from ultralytics import YOLO
 from PIL import Image
 from urllib.request import urlretrieve
 import logging
-import json
 
 class CarVsTruck:  #class that has several functions within it 
     def __init__(self, model_path): # Function For the model path #Constructor that will load the model
